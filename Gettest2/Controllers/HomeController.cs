@@ -10,6 +10,7 @@ namespace Gettest2.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Message from the Viewbag.";
             return View();
         }
 
